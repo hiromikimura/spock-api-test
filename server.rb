@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'sinatra/reloader'
+require 'json'
 
 bookmarks = [{ id:"1", name:"オキニ1", url:"http:/hogehoge.com/okini1"},
              { id:"2", name:"オキニ2", url:"http:/hogehoge.com/okini2"},
